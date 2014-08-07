@@ -1,0 +1,18 @@
+var highlightTimer;$(function(){function i(k){b.find(".results > ul").each(function(l){b.find(".nav ol.menu").append('<li><a href="#" class="step">'+(l+k)+"</a></li>");
+});}function e(){var k;$.ajax({url:"/no-cache/HoraAtualServidor.aspx",async:false,dataType:"text",success:function(l){var m=(l.indexOf(":")+6),n=l.substring(0,m).replace(/fev/i,"feb").replace(/mai/i,"may").replace(/ago/i,"aug").replace(/set/i,"sep").replace(/out/i,"oct").replace(/dez/i,"dec");
+k=new Date(n);},error:function(m,n,l){k=new Date();}});return k;}var h=e(),c=new Date($("#clock").text());$("#clock").countdown({serverSync:e,until:c,format:"H",layout:'<span class="countdown"><span class="number">{hnn}</span><span class="text">Horas</span></span>'});
+$("#clock").show();if($("body").hasClass("home")||$("body").hasClass("departamento")){var a=0,b=$("#highlight"),j=b.find(".results > ul").length-1,g=8000,d=null;
+if(b.exists()){if(b.find(".results p.list-price").exists()&&$.browser.msie){b.find(".results p.list-price").css({opacity:".8"});}b.find("h2:first").remove();
+b.append('<div class="nav"><ol class="menu"></ol></div>');if(!$("#promo").children().exists()){i(0);}else{j++;i(1);b.find(".results").prepend("<ul><li></li></ul>");
+$("#promo").appendTo("#highlight .results ul:first > li");b.find(".nav ol.menu").append('<li><a href="#" class="step">0</a></li>');}b.find(".nav ol.menu li:first a").addClass("active");
+e();var f='<span class="countdown_row countdown_show3"><span class="countdown_section"><span class="countdown_amount">{hnn}</span><br>Horas</span><span class="countdown_section"><span class="countdown_amount">{mnn}</span><br>Minutos</span><span class="countdown_section"><span class="countdown_amount">{snn}</span><br/>Segundos</div></span>';
+if(j>=1){highlightTimer=$.timer(g,function(k){if(a<j){a++;}else{a=0;}b.find(".nav ol.menu li:eq("+a+") a.step").trigger("click");});}if(b.find(".nav ol.menu a").exists()){b.find(".nav ol.menu li").each(function(k){$(this).find("a.step").click(function(n){n.preventDefault();
+b.find(".results > ul").hide();b.find(".results > ul:eq("+k+")").css({opacity:"0"}).show().stop().animate({opacity:"1"},500);b.find(".nav ol.menu li a").removeClass("active");
+$(this).addClass("active");a=k;if(j>=1){highlightTimer.stop();highlightTimer.reset(g);}if(b.find(".results > ul:eq("+k+") div.extras div.product-field").exists()){var m;
+switch(b.find(".results > ul:eq("+k+") div.extras div.product-field ul li").attr("class")){case"clock-24h":if(!b.find(".results > ul:eq("+k+") div#clock").exists()){m=new Date(d.getFullYear(),d.getMonth(),(d.getDate()+1));
+b.find(".results > ul:eq("+k+") a.link").addClass("clock");b.find(".results > ul:eq("+k+") a.link").append('<div id="clock" />');b.find(".results > ul:eq("+k+") a.link div#clock").countdown({serverSync:e,until:m,layout:f});
+}if(b.find(".results > ul:eq("+k+") p.list-price").exists()){b.find(".results > ul:eq("+k+") a.link").addClass("offer");}break;case"clock-48h":if(!b.find(".results > ul:eq("+k+") div#clock").exists()){var l=new Date();
+if(l.getDay()===6){m=new Date(d.getFullYear(),d.getMonth(),(d.getDate()+2));}if(l.getDay()===0){m=new Date(d.getFullYear(),d.getMonth(),(d.getDate()+1));
+}b.find(".results > ul:eq("+k+") a.link").addClass("clock");b.find(".results > ul:eq("+k+") a.link").append('<div id="clock" />');b.find(".results > ul:eq("+k+") a.link div#clock").countdown({serverSync:e,until:m,layout:f});
+}if(b.find(".results > ul:eq("+k+") p.list-price").exists()){b.find(".results > ul:eq("+k+") a.link").addClass("offer");}break;}}});});}b.find(".nav ol.menu li:first a.step").trigger("click");
+}}});$.fn.exists=function(){return $(this).length>0;};$.fn.visible=function(){return $(this).is(":visible");};

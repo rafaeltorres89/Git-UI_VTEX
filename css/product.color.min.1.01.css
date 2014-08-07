@@ -1,0 +1,30 @@
+.Cor .skuList{margin:0 0 8px 12px}.skuList label{background-repeat:no-repeat;border:solid 4px #f5f5f5;cursor:pointer;display:block;float:left;font-size:0;height:25px;margin:5px 5px 0 0;outline:solid 1px #ccc;width:25px}
+.skuList [type="radio"]{display:none}.skuList [type="radio"]:checked+label{outline:solid 1px #e32410}
+.skuespec_Cor_opcao_ALPINO{background-color:#4a1817}.skuespec_Cor_opcao_AMORE-CREMOSO{background-color:#810311}.skuespec_Cor_opcao_AMORZINHO-VERNIZ{background-color:#781b26}
+.skuespec_Cor_opcao_AVELA{background-color:#86685e}.skuespec_Cor_opcao_AZUL-DUQUESA-METALICO{background-color:#0d2531}.skuespec_Cor_opcao_BEGE{background-color:#977456}
+.skuespec_Cor_opcao_BEGE-CASTANHO{background-color:#7d5744}.skuespec_Cor_opcao_BEGE-CLARO{background-color:#9a7b66}.skuespec_Cor_opcao_BEGE-CLARO-MEDIO{background-color:#5b3c1f}
+.skuespec_Cor_opcao_BEGE-CLARO-NATURAL{background-color:#6b3e1d}.skuespec_Cor_opcao_BEGE-CLARO-TRANSLUCIDO{background-color:#6a4d2b}.skuespec_Cor_opcao_BEGE-MEDIO{background-color:#b47c4d}
+.skuespec_Cor_opcao_BEGE-TRANSLUCIDO{background-color:#a68468}.skuespec_Cor_opcao_BLACK-INTENSE-CREMOSO{background-color:#000}.skuespec_Cor_opcao_BONY{background-color:#8a3c30}
+.skuespec_Cor_opcao_BRONZE{background-color:#a97754}.skuespec_Cor_opcao_BRUMAS{background-color:#6b3227}.skuespec_Cor_opcao_CACAU{background-color:#a77760}
+.skuespec_Cor_opcao_CAMELIA{background-color:#c2727f}.skuespec_Cor_opcao_CELEBRATION-CREMOSO{background-color:#48214d}.skuespec_Cor_opcao_CHIC{background-color:#812b4e}
+.skuespec_Cor_opcao_CHIC-LIGHT-CREMOSO{background-color:#a176ac}.skuespec_Cor_opcao_CLARO{background-color:#d18851}.skuespec_Cor_opcao_CREPUSCULO{background-color:#662d22}
+.skuespec_Cor_opcao_DIAMOND{background-color:#ef71a1}.skuespec_Cor_opcao_DREAM{background-color:#f43956}.skuespec_Cor_opcao_ELETRIC{background-color:#923001}
+.skuespec_Cor_opcao_ESCURO{background-color:#c15d2b}.skuespec_Cor_opcao_FOUNDUE{background-color:#420c0c}.skuespec_Cor_opcao_GALAXIA{background-color:#8e4709}
+.skuespec_Cor_opcao_GLACE{background-color:#f79274}.skuespec_Cor_opcao_GLAMOUR-METALICO{background-color:#9e887a}.skuespec_Cor_opcao_GOLDEN-FLASH-METALICO{background-color:#d8b78c}
+.skuespec_Cor_opcao_GOLD-METALICO{background-color:#735940}.skuespec_Cor_opcao_ICE-CREMOSO{background-color:#cfc7b2}.skuespec_Cor_opcao_LADY{background-color:#a53559}
+.skuespec_Cor_opcao_LAMBADA{background-color:#6f0104}.skuespec_Cor_opcao_MALVA{background-color:#d56b55}.skuespec_Cor_opcao_MARROM-CLARO{background-color:#3d1e0c}
+.skuespec_Cor_opcao_MARROM-MEDIO{background-color:#3a190a}.skuespec_Cor_opcao_MEDIO{background-color:#c16d3e}.skuespec_Cor_opcao_NOBRE-CREMOSO{background-color:#a1212e}
+.skuespec_Cor_opcao_NUDE{background-color:#e0ddb1}.skuespec_Cor_opcao_ORANGE{background-color:#ee5104}.skuespec_Cor_opcao_ORQUIDEA{background-color:#aa615a}
+.skuespec_Cor_opcao_OURO-ANTIGO{background-color:#624a46}.skuespec_Cor_opcao_PESSEGO{background-color:#ba543b}.skuespec_Cor_opcao_PINK-BOCA{background-color:#7f2719}
+.skuespec_Cor_opcao_PINK-FLOWER-CREMOSO{background-color:#90183c}.skuespec_Cor_opcao_PINK-PINK-CREMOSO{background-color:#c30438}.skuespec_Cor_opcao_PINK-NOBRE{background-color:#960d29}
+.skuespec_Cor_opcao_PINK-NUDE{background-color:#782422}.skuespec_Cor_opcao_PINK-STAR{background-color:#c01539}.skuespec_Cor_opcao_POR-DO-SOL{background-color:#6a000a}
+.skuespec_Cor_opcao_POWER-CREMOSO{background-color:#d52e35}.skuespec_Cor_opcao_PURPLE-SEDUCTION-METALICO{background-color:#381b31}.skuespec_Cor_opcao_REALEZA-TRANSPARENTE{background-color:#ded8da}
+.skuespec_Cor_opcao_SHINE-METALICO{background-color:#6c1120}.skuespec_Cor_opcao_TORNADO{background-color:#201f25}.skuespec_Cor_opcao_TULIPA{background-color:#bf7f63}
+.skuespec_Cor_opcao_VANILLA{background-color:#c3b29e}.skuespec_Cor_opcao_VINTAGE{background-color:#dd9b85}.skuespec_Cor_opcao_VITRILHO{background-color:#c4bab1}
+.skuespec_Cor_opcao_LAZULI{background-image:url(http://imagens.polishop.com.br/arquivos/sombra_cor_lazuli.gif)}.skuespec_Cor_opcao_PURPURA{background-image:url(http://imagens.polishop.com.br/arquivos/sombra_cor_purpura.gif)}
+.skuespec_Cor_opcao_JASPE{background-image:url(http://imagens.polishop.com.br/arquivos/sombra_cor_jaspe.gif)}.skuespec_Cor_opcao_CELEBRATION-CHIC{background-image:url(http://imagens.polishop.com.br/arquivos/sombra_cor_celebration-chic.gif)}
+.skuespec_Cor_opcao_CELEBRATION-COLOURS{background-image:url(http://imagens.polishop.com.br/arquivos/sombra_cor_celebration-colors.gif)}.skuespec_Cor_opcao_EXECUTIVE-BALANCE{background-image:url(http://imagens.polishop.com.br/arquivos/sombra_cor_executive-balance.gif)}
+.skuespec_Cor_opcao_EXECUTIVE-ROMANTIC{background-image:url(http://imagens.polishop.com.br/arquivos/sombra_cor_executive-romantic.gif)}.skuespec_Cor_opcao_JADE{background-image:url(http://imagens.polishop.com.br/arquivos/sombra_cor_jade.gif)}
+.skuespec_Cor_opcao_GLAM-ONE{background-image:url(http://imagens.polishop.com.br/arquivos/sombra_cor_glam-one.gif)}.skuespec_Cor_opcao_TURQUESA{background-image:url(http://imagens.polishop.com.br/arquivos/sombra_cor_turquesa.gif)}
+.skuespec_Cor_opcao_SILVER{background-image:url(http://imagens.polishop.com.br/arquivos/sombra_cor_silver.gif)}.skuespec_Cor_opcao_GLAM-THREE{background-image:url(http://imagens.polishop.com.br/arquivos/sombra_cor_glam-three.gif)}
+.skuespec_Cor_opcao_SAFIRA{background-image:url(http://imagens.polishop.com.br/arquivos/sombra_cor_safira.gif)}
